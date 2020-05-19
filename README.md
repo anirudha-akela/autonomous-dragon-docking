@@ -6,6 +6,8 @@ This process will be automated in the actual launch but the astronauts can alway
 
 I wrote a JSON script to dock automatically. 
 
-In order to run the script yourself, press Ctrl+Shift+J in your browser and paste the json file in the code editor.
+The script works by first zeroing out the angles with a basic PID controller (technically PD since the I term wasn't needed). When the angular errors are sufficiently small, the script starts to correct the position using the same method.
+
+In order to run the script yourself, just paste it in the development console of your browser (press Ctrl+Shift+J for Chrome).
 
 Have fun! :P
