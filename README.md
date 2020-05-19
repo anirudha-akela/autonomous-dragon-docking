@@ -4,7 +4,7 @@ This process will be automated in the actual launch but the astronauts can alway
 
 [Dragon-ISS docking sim](https://iss-sim.spacex.com/)
 
-I wrote a JSON script to dock automatically. 
+I wrote a JavaScript to dock automatically. 
 
 The script works by first zeroing out the angles with a basic PID controller (technically PD since the I term wasn't needed). When the angular errors are sufficiently small, the script starts to correct the position using the same method.
 
